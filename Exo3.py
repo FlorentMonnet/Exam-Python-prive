@@ -9,7 +9,7 @@ import math
 class Ville:
     #On initialise aucune destination
     def __init__(self):
-        self.destination=[]
+        self.destination=[[None,None]]
     
     def getDestination(self):
         return self.destination
